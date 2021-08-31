@@ -1,6 +1,6 @@
 import React from "react";
 
-interface TodoListProps {
+interface TodoListProps { /* interface is the data type mentioned for the props */
   todos: { id: number; task: string; status: boolean }[];
   removeTodo: (id: number) => void;
   completedTodo: (id: number) => void;
